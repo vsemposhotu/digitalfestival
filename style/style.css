@@ -1,0 +1,261 @@
+body {
+    font-family: "Inter", sans-serif;
+}
+
+img.sittingwoman {
+    display: block;
+    margin: 0 auto;
+    padding: 1%;
+    width: 98%;
+    border-radius: 40px;
+}
+
+#rectangle1 {
+    position: absolute;
+    left: 3%;
+    top: 6%;
+    width: 38vw;
+    height: 46vw;
+    background: white;
+    border-radius: 30px;
+}
+
+#rectangle2 {
+    position: absolute;
+    left: 6%;
+    top: 85%;
+    width: 8vw;
+    height: 3.5vw;
+    background: #288C48;
+    border-radius: 81px;
+}
+
+a:hover {
+    background: rgba(146, 220, 160, 0.2);
+}
+
+a {
+    position: absolute;
+    left: 6%;
+    top: 85%;
+    width: 8vw;
+    height: 3.5vw;
+    border-radius: 81px;
+}
+
+div.reg {
+    text-decoration: none;
+    position: absolute;
+    font-size: 13px;
+    left: 6.9%;
+    top: 87.5%;
+    color: white;
+    font-weight: 300;
+}
+
+h1 {
+    position: absolute;
+    left: 6%;
+    top: 42%;
+    font-size: 56px;
+    width: 30%;
+    line-height: 1;
+    font-weight: 500;
+}
+
+p.dir {
+    position: absolute;
+    left: 6%;
+    top: 70%;
+    font-size: 18px;
+    width: 18%;
+    line-height: 1;
+    font-weight: 300;
+}
+
+p.data {
+    position: absolute;
+    left: 17.5%;
+    top: 82.7%;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    font-size: 21px;
+}
+
+p.time {
+    position: absolute;
+    left: 26%;
+    top: 82.7%;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    font-size: 21px;
+}
+
+p.place {
+    position: absolute;
+    left: 17.5%;
+    top: 87%;
+    font-weight: 300;
+    letter-spacing: 0;
+    font-size: 16px;
+}
+
+img.first {
+    position: absolute;
+    left: 6%;
+    top: 12%;
+    height: 8%;
+    border-radius: 150px;
+}
+
+img.second {
+    position: absolute;
+    left: 9%;
+    top: 12%;
+    height: 8%;
+    border-radius: 150px;
+}
+
+img.third {
+    position: absolute;
+    left: 12%;
+    top: 12%;
+    height: 8%;
+    border-radius: 150px;
+}
+
+img.forth {
+    position: absolute;
+    left: 15%;
+    top: 12%;
+    height: 8%;
+    border-radius: 150px;
+}
+
+p.speak {
+    position: absolute;
+    left: 20%;
+    top: 12%;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+h2 {
+    margin-left: 1%;
+    margin-top: 4%;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.container { 
+    display: flex; 
+    justify-content: space-around; 
+} 
+
+.item#rectangle { 
+    background: #F3F3F3;
+    width: 22.7vw;
+    height: 26vw;
+    border-radius: 30px;
+}
+
+.ii {
+    width: 78%;
+    height: 10%;
+    font-weight: 500;
+    font-size: 26px;
+    margin-left: 8%;
+    line-height: 0.9;
+}
+
+.kak {
+    width: 80%;
+    height: 20%;
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 8%;
+    line-height: 1;
+}
+
+p.greendata5 {
+    position: absolute;
+    top: 126%;
+    left: 3.4%;
+    color: #288C48;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+p.greendata6 {
+    position: absolute;
+    top: 126%;
+    left: 28%;
+    color: #288C48;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+p.greendata7 {
+    position: absolute;
+    top: 126%;
+    left: 52.8%;
+    color: #288C48;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+p.greendata8 {
+    position: absolute;
+    top: 126%;
+    left: 77.4%;
+    color: #288C48;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.elena {
+    height: 14%;
+    border-radius: 150px;
+    margin-top: 4%;
+    margin-left: 8%;
+}
+
+.leha {
+    position: absolute;
+    height: 7.6%;
+    left: 6%;
+    top: 167.5%;
+    border-radius: 150px;
+}
+
+.serg {
+    position: absolute;
+    height: 7.6%;
+    left: 28%;
+    top: 167.5%;
+    border-radius: 150px;
+}
+
+.vita#forth {
+    height: 14%;
+    margin-top: 4%;
+    margin-left: -6%;
+    border-radius: 150px;
+}
+
+.vita#second {
+    position: relative;
+    height: 14%;
+    margin-top: 4%;
+    margin-left: 20%;
+    border-radius: 150px;
+    z-index: 100;
+}
+
+.sveta {
+    position: absolute;
+    height: 7.6%;
+    left: 55.5%;
+    top: 167.5%;
+    border-radius: 150px;
+}
