@@ -30,11 +30,11 @@ img.sittingwoman {
     border-radius: 81px;
 }
 
-a:hover {
+a.reg:hover {
     background: rgba(146, 220, 160, 0.2);
 }
 
-a {
+a.reg {
     position: absolute;
     left: 6%;
     top: 85%;
@@ -142,7 +142,8 @@ p.speak {
 
 h2 {
     margin-left: 1%;
-    margin-top: 4%;
+    margin-top: 4.8%;
+    margin-bottom: 1.5%;
     font-size: 40px;
     font-weight: 500;
 }
@@ -159,6 +160,10 @@ h2 {
     border-radius: 30px;
 }
 
+#rectangle:hover { 
+    background: #f0f0f0;
+}
+
 .ii {
     width: 78%;
     height: 10%;
@@ -169,12 +174,12 @@ h2 {
 }
 
 .kak {
-    width: 80%;
+    width: 83%;
     height: 20%;
     font-size: 18px;
-    font-weight: 300;
     margin-left: 8%;
     line-height: 1;
+    font-weight: 350;
 }
 
 p.greendata5 {
@@ -224,7 +229,7 @@ p.greendata8 {
     position: absolute;
     height: 7.6%;
     left: 6%;
-    top: 167.5%;
+    top: 167.7%;
     border-radius: 150px;
 }
 
@@ -256,6 +261,314 @@ p.greendata8 {
     position: absolute;
     height: 7.6%;
     left: 55.5%;
-    top: 167.5%;
+    top: 167.7%;
     border-radius: 150px;
+}
+
+.nameavtor1 {
+    position: absolute;
+    left: 2.4%;
+    top: 167.5%;
+    width: 10%;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 8%;
+    line-height: 1;
+}
+
+.nameavtor2 {
+    position: absolute;
+    left: 27.2%;
+    top: 167.5%;
+    width: 10%;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 8%;
+    line-height: 1;
+}
+
+.nameavtor3 {
+    position: absolute;
+    left: 52.1%;
+    top: 167.5%;
+    width: 10%;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 8%;
+    line-height: 1;
+}
+
+.nameavtor4 {
+    position: absolute;
+    left: 76.7%;
+    top: 167.5%;
+    width: 10%;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 8%;
+    line-height: 1;
+}
+
+p.descr {
+    width: 35%;
+    margin-left: 1%;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 350;
+}
+
+img.mic {
+    margin-left: 1%;
+    border-radius: 25px;
+    width: 40%;
+    margin-top: 1%;
+}
+
+img.kav {
+    position: absolute;
+    top: 215%;
+    left: 45%;
+    height: 20%;
+}
+
+p.quote {
+    position: absolute;
+    top: 222%;
+    left: 51%;
+    width: 48%;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+p.twot {
+    position: absolute;
+    left: 51%;
+    top: 242%;
+    font-size: 80px;
+    font-weight: 500;
+}
+
+p.part {
+    position: absolute;
+    left: 51%;
+    top: 264%;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 300;
+    color: rgba(64, 64, 64, 1);
+    width: 25%;
+}
+
+p.sixty {
+    position: absolute;
+    left: 76%;
+    top: 242%;
+    font-size: 80px;
+    font-weight: 500;
+}
+
+p.everyday {
+    position: absolute;
+    left: 76%;
+    top: 264%;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 300;
+    color: rgba(64, 64, 64, 1);
+    width: 22%;
+}
+
+#rectangle3 {
+    position: absolute;
+    left: 51%;
+    top: 277%;
+    width: 8vw;
+    height: 3.5vw;
+    background: #288C48;
+    border-radius: 81px;
+}
+
+div.reg2 {
+    text-decoration: none;
+    position: absolute;
+    font-size: 13px;
+    left: 51.9%;
+    top: 279.6%;
+    color: white;
+    font-weight: 300;
+}
+
+a.reg2:hover {
+    background: rgba(146, 220, 160, 0.2);
+}
+
+a.reg2 {
+    position: absolute;
+    left: 51%;
+    top: 277%;
+    width: 8vw;
+    height: 3.5vw;
+    border-radius: 81px;
+}
+
+p.data2 {
+    position: absolute;
+    left: 62.5%;
+    top: 274.7%;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    font-size: 21px;
+}
+
+p.time2 {
+    position: absolute;
+    left: 71%;
+    top: 274.7%;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    font-size: 21px;
+}
+
+p.place2 {
+    position: absolute;
+    left: 62.5%;
+    top: 279%;
+    font-weight: 300;
+    letter-spacing: 0;
+    font-size: 16px;
+}
+
+#rectanglebottom {
+    display: block;
+    margin: 0 auto;
+    padding: 1%;
+    width: 96%;
+    height: 21vw;
+    border-radius: 30px;
+    background: #F3F3F3;
+    margin-top: 3.5%;
+}
+
+p.cfobot {
+    font-size: 42px;
+    width: 30%; 
+    font-weight: 500;
+    padding: 0;
+    margin: 2%;
+    line-height: 0.9;
+}
+
+p.delaem {
+    font-weight: 300;
+    padding: 0;
+    margin: 2%;
+    font-size: 15.5px;
+}
+
+#rectangle4 {
+    position: absolute;
+    left: 4.5%;
+    top: 340%;
+    width: 8vw;
+    height: 3.5vw;
+    background: #288C48;
+    border-radius: 81px;
+}
+
+div.reg3 {
+    text-decoration: none;
+    position: absolute;
+    font-size: 13px;
+    left: 5.4%;
+    top: 342.6%;
+    color: white;
+    font-weight: 300;
+}
+
+a.reg3:hover {
+    background: rgba(146, 220, 160, 0.2);
+}
+
+a.reg3 {
+    position: absolute;
+    left: 4.5%;
+    top: 340%;
+    width: 8vw;
+    height: 3.5vw;
+    border-radius: 81px;
+}
+
+p.hotite {
+    font-weight: 200;
+    font-size: 15.5px;
+    padding: 0;
+    margin-left: 2%;
+    margin-top: 7%;
+    margin-bottom: 0;
+}
+
+p.mail {
+    font-weight: 700;
+    padding: 0;
+    margin-left: 2%;
+    margin-top: 0.4%;
+}
+
+p.gde {
+    position: absolute;
+    left: 51%;
+    top: 331.8%;
+    font-weight: 700;
+    font-size: 15.5px;
+}
+
+p.plc {
+    position: absolute;
+    left: 51%;
+    top: 336%;
+    font-weight: 300;
+    font-size: 15.5px;
+    width: 15%;
+}
+
+p.kogda {
+    position: absolute;
+    left: 76%;
+    top: 331.8%;
+    font-weight: 700;
+    font-size: 15.5px;
+}
+
+p.dati {
+    position: absolute;
+    left: 76%;
+    top: 336%;
+    font-weight: 300;
+    font-size: 15.5px;
+    width: 15%;
+}
+
+a.politika {
+    text-decoration: none;
+    position: absolute;
+    left: 51%;
+    top: 353%;
+    font-weight: 300;
+    font-size: 15.5px;
+    color: black;
+}
+
+a.politika:hover {
+    color: rgb(133, 133, 133);
+}
+
+p.prava {
+    position: absolute;
+    left: 76%;
+    top: 351%;
+    font-weight: 300;
+    font-size: 15.5px;
 }
