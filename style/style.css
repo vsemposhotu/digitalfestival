@@ -93,27 +93,27 @@ body {
     margin: 0;
 }
 
-div.registration {
+div.registration#f {
     position: absolute;
     left: 8%;
     top: 83%;
-    width: 21%;
-    height: 7%;
+    width: 8vw;
+    height: 3.5vw;
     background:rgba(40, 140, 72, 1);
     border-radius: 40vw;
 }
 
-p.registration {
+p.registration#f {
     position: absolute;
     left: 9%;
-    top: 30%;
-    font-size: 0.8vw;
+    top: 31%;
+    font-size: 0.9vw;
     color: white;
     font-weight: 350;
     margin: 0;
 }
 
-a.registration {
+a.registration#f {
     position: absolute;
     left: 8%;
     top: 83%;
@@ -126,30 +126,30 @@ a.registration:hover {
     background: rgba(33, 100, 54, 0.2);
 }
 
-p.date {
+p.date#f {
     position: absolute;
     left: 39%;
-    top: 83.5%;
+    top: 84%;
     font-size: 1.3vw;
     font-weight: 500;
     line-height: 1;
     margin: 0;
 }
 
-p.time {
+p.time#f {
     position: absolute;
     left: 60%;
-    top: 83.5%;
+    top: 84%;
     font-size: 1.3vw;
     font-weight: 500;
     line-height: 1;
     margin: 0;
 }
 
-p.place {
+p.place#f {
     position: absolute;
     left: 39%;
-    top: 87%;
+    top: 87.5%;
     font-size: 1vw;
     font-weight: 300;
     line-height: 1;
@@ -162,46 +162,237 @@ h1.programm {
     font-weight: 500;
 }
 
+div.rect {
+    display: flex; 
+    justify-content: space-around;
+}
+
 div.fifthmarch {
     display: inline-block;
     margin-right: 2.5vw;
-    width: 20.25vw;
-    height: 23.85vw;
+    width: 20.625vw;
+    height: 23vw;
     background:rgba(243, 243, 243, 1);
-    border-radius: 1.5vw;
+    border-radius: 2vw;
 }
 
 div.sixthmarch {
     display: inline-block;
     margin-right: 2.5vw;
-    width: 20.25vw;
-    height: 23.85vw;
+    width: 20.625vw;
+    height: 23vw;
     background:rgba(243, 243, 243, 1);
-    border-radius: 1.5vw;
+    border-radius: 2vw;
 }
 
 div.seventhmarch {
     display: inline-block;
     margin-right: 2.5vw;
-    width: 20.25vw;
-    height: 23.85vw;
+    width: 20.625vw;
+    height: 23vw;
     background:rgba(243, 243, 243, 1);
-    border-radius: 1.5vw;
+    border-radius: 2vw;
 }
 
 div.eighthmarch {
     display: inline-block;
-    width: 20.25vw;
-    height: 23.85vw;
+    width: 20.625vw;
+    height: 23vw;
     background:rgba(243, 243, 243, 1);
-    border-radius: 1.2vw;
+    border-radius: 2vw;
 }
 
-.ii5 {
-    font-size: 1.65vw;
+.sub {
+    position: relative;
+    width: 45%;
+    height: 30%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("C:/Users/UDasha/OneDrive/Рабочий стол/показать Кристине/image/Subtract.png");
 }
 
-div.rect {
-    display: flex; 
-    justify-content: space-around;
+.greendate {    
+    position: relative;
+    left: 12%;
+    top: 20%;
+    margin: 0;
+    font-weight: 500;
+    font-size: 1.3vw;
+    color: rgba(40, 140, 72, 1);
+}
+
+p#title {
+    position: relative;
+    font-size: 1.5vw;
+    width: 82%;
+    height: 17%;
+    margin: 7% 0 0 7%;
+    font-weight: 500;
+    line-height: 1;
+}
+
+p.titledescr {
+    position: relative;
+    font-size: 1vw;
+    width: 85%;
+    margin: 0 0 0 7%;
+    font-weight: 300;
+    line-height: 1;
+}
+
+#firstph, #secondph {
+    position: relative;
+    border-radius: 40vw;
+    height: 14%;
+    margin-left: 7%;
+    top: 10%
+}
+
+#secondph {
+    margin-left: -6%;
+}
+
+p.name {
+    display: inline-block;
+    position: relative;
+    top: 6%;
+    left: 2%;
+    width: 50%;
+    font-size: 0.9vw;
+    font-weight: 300;
+    line-height: 1;
+    margin: 0;
+}
+
+h1.whatwillbe {
+    margin-top: 5vw;
+    font-size: 2.5vw;
+    font-weight: 500;
+}
+
+p.descact {
+    font-size: 1.5vw;
+}
+
+div.mq {
+    display: flex;
+    width: 90vw;
+}
+
+.mic {
+    width: 35vw;
+    height: 40vw;
+    border-radius: 1.5vw;
+}
+
+div.quote {
+    margin-top: 4vw;
+    font-size: 2.4vw;
+    font-weight: 500;
+    margin-left: 10vw;
+    line-height: 1;
+    width: 45vw;
+}
+
+.kav {
+    position: relative;
+    top: -17.2vw;
+    left: -5.5vw;
+    width: 12vw;
+}
+
+.twothous {
+    display: inline;
+    position: relative;
+    top: -3vw;
+    left: -11.9vw;
+    margin: 0;
+    font-size: 5vw;
+    font-weight: 500;
+}
+
+.sixty {
+    display: inline;
+    position: relative;
+    top: -3vw;  
+    left: -5.5vw;
+    margin: 0;
+    font-size: 5vw;
+    font-weight: 500;
+}
+
+.part {
+    position: relative;
+    top: -2vw;
+    margin: 0;
+    font-size: 1.2vw;
+    font-weight: 250;
+    width: 25vw;
+}
+
+.hmspeack {
+    position: relative;
+    top: -4.4vw;
+    left: 23.5vw;
+    margin: 0;
+    font-size: 1.2vw;
+    font-weight: 250;
+    width: 22vw;
+}
+
+div.registration#s {
+    position: absolute;
+    top: 125vw;
+    width: 8vw;
+    height: 3.5vw;
+    background:rgba(40, 140, 72, 1);
+    border-radius: 40vw;
+}
+
+p.registration#s {
+    position: relative;
+    left: 9%;
+    top: 36%;
+    font-size: 0.9vw;
+    color: white;
+    font-weight: 350;
+    margin: 0;
+}
+
+a.registration#s {
+    position: absolute;
+    top: 125vw;
+    width: 8vw;
+    height: 3.5vw;
+    border-radius: 40vw;
+}
+
+p.date#s {
+    position: absolute;
+    left: 61vw;
+    top: 125.5vw;
+    font-size: 1.3vw;
+    font-weight: 500;
+    line-height: 1;
+    margin: 0;
+}
+
+p.time#s {
+    position: absolute;
+    left: 70vw;
+    top: 125.5vw;
+    font-size: 1.3vw;
+    font-weight: 500;
+    line-height: 1;
+    margin: 0;
+}
+
+p.place#s {
+    position: absolute;
+    left: 61vw;
+    top: 127vw;
+    font-size: 1vw;
+    font-weight: 300;
+    line-height: 1;
+    margin: 0;
 }
